@@ -25,29 +25,26 @@ La app permite instruir causas con evidencias multimedia (fotos, documentos), in
 
 ---
 
-## 📸 Demo y Capturas
-
-*(Aquí puedes insertar un GIF animado mostrando el flujo de la app o una imagen compuesta de las pantallas principales)*
-
-> 🎥 **[Ver Video Demo en YouTube/Loom]** (Opcional: Si tienes un video, pon el link aquí)
-
----
-
 ## 🚀 Funcionalidades Clave
 
 ### 1. Gestión de Identidad Profesional
 * Registro seguro de abogados (Matrícula Profesional, Domicilio Legal).
 * Autenticación y protección de datos sensibles.
+`![Demo Mapa](assets/demo-user.gif)`
 
 ### 2. Digitalización de Expedientes
-* Creación de expedientes con metadatos jurídicos: Carátula, Fuero, Jurisdicción y Delito.
+* Creación de expedientes con metadatos jurídicos: Número de expediente, Carátula, Fuero, Jurisdicción, Ubicación del hecho y Delito.
 * Historial organizado cronológicamente.
 * **Filtrado inteligente** por estado, fuero o carátula.
+* **Geolocalización del Hecho:** Integración con **Google Maps API** y autocompletado de direcciones con **Google Places** para precisar el lugar del incidente.
+`![Demo Mapa](assets/demo-maps-1.gif)`
+`![Demo Mapa](assets/demo-maps-2.gif)`
 
 ### 3. Presentaciones y Evidencia (Core Feature)
 * Redacción de escritos judiciales solicitando medidas al juez.
-* **Geolocalización del Hecho:** Integración con **Google Maps API** y autocompletado de direcciones con **Google Places** para precisar el lugar del incidente.
-* **Gestión de Evidencia en la Nube:** Subida de archivos (PDF, Imágenes) directamente a **Google Drive** mediante su API, vinculando los links de acceso al expediente local.
+* **Gestión de Evidencia en la Nube:** Subida de archivos (PDF, Imágenes o vídeos) directamente a **Google Drive** mediante su API.
+`![Demo Drive](assets/demo-drive-1.gif)`
+`![Demo Drive](assets/demo-drive-2.gif)`
 
 ### 4. Productividad
 * Sistema de **Notificaciones** para recordar presentaciones pendientes tras X días de inactividad.
