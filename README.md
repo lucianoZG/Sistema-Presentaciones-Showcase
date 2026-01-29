@@ -1,4 +1,4 @@
-# ⚖️ Sistema de Gestión de Presentaciones Judiciales (Mobile)
+# ⚖️ Sistema de Presentación de Actividades Procesales (Mobile)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -8,7 +8,9 @@
 
 ## 📱 Descripción del Proyecto
 
-Aplicación móvil nativa desarrollada en **Kotlin** diseñada para modernizar la labor del **Abogado Litigante**. 
+Partimos de la base de que una **Presentación de Actividad Procesal** es un escrito en el cual se solicitan medidas judiciales al juez a los efectos de que se instruya la causa con las evidencias correspondientes que ayuden a esclarecer la situación en favor del cliente.
+
+Esta es una Aplicación móvil nativa desarrollada en **Kotlin** diseñada para modernizar la labor del **Abogado Litigante**. 
 
 En el contexto post-pandemia, el sistema judicial ha migrado hacia la virtualidad. Esta herramienta cubre la necesidad de movilidad, permitiendo a los profesionales del derecho gestionar **Expedientes** y realizar **Presentaciones de Actividad Procesal** de forma remota, segura y geolocalizada.
 
