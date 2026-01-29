@@ -68,3 +68,22 @@ graph TD
     C -->|Fetch Local| D[Room Database]
     C -->|Fetch Remote| E[Google Drive API]
     C -->|Get Location| F[Google Maps API]
+```
+
+## 💡 El Problema que Resuelve
+* **Inmediatez:** Ante situaciones de violencia o delitos menores, la movilidad y el registro inmediato son factores vitales.
+* **Gestión de Evidencia:** Los usuarios demandan herramientas para adjuntar fotos, audios y documentos en el momento exacto de los hechos.
+* **Geolocalización:** Las fuerzas de seguridad requieren que la información llegue clara y con ubicación precisa para optimizar su intervención.
+
+## 📩 Contacto y Oportunidades
+
+Este proyecto representa una solución sólida con potencial comercial para estudios jurídicos y organismos judiciales. Si te interesa conocer más sobre la arquitectura, ver una demo en vivo o discutir oportunidades laborales, no dudes en contactarme.
+
+| Canal | Detalle |
+| :--- | :--- |
+| **Desarrollador** | **Luciano Rafael Zanni Giuliano** |
+| **Email** | [lucianozannig@gmail.com](mailto:lucianozannig@gmail.com) |
+| **LinkedIn** | [linkedin.com/in/lucianozannig](https://www.linkedin.com/in/lucianozannig) |
+| **GitHub** | [@lucianoZG](https://github.com/lucianoZG) |
+
+> *Abierto a roles de Java Backend Developer / Android Developer.*
