@@ -30,7 +30,7 @@ La app permite instruir causas con evidencias multimedia (fotos, documentos), in
 ### 1. Gestión de Identidad Profesional
 * Registro seguro de abogados (Matrícula Profesional, Domicilio Legal).
 * Autenticación y protección de datos sensibles.
-`![Demo Mapa](assets/demo-user.gif)`
+`![Demo Mapa](./assets/demo-user.gif)`
 
 ### 2. Digitalización de Expedientes
 * Creación de expedientes con metadatos jurídicos: Número de expediente, Carátula, Fuero, Jurisdicción, Ubicación del hecho y Delito.
