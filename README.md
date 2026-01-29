@@ -16,6 +16,13 @@ La app permite instruir causas con evidencias multimedia (fotos, documentos), in
 
 ---
 
+## 💡 El Problema que Resuelve
+* **Inmediatez:** Ante situaciones de violencia o delitos menores, la movilidad y el registro inmediato son factores vitales.
+* **Gestión de Evidencia:** Los usuarios demandan herramientas para adjuntar fotos, audios y documentos en el momento exacto de los hechos.
+* **Geolocalización:** Las fuerzas de seguridad requieren que la información llegue clara y con ubicación precisa para optimizar su intervención.
+
+---
+
 ## 📸 Demo y Capturas
 
 *(Aquí puedes insertar un GIF animado mostrando el flujo de la app o una imagen compuesta de las pantallas principales)*
@@ -69,11 +76,6 @@ graph TD
     C -->|Fetch Remote| E[Google Drive API]
     C -->|Get Location| F[Google Maps API]
 ```
-
-## 💡 El Problema que Resuelve
-* **Inmediatez:** Ante situaciones de violencia o delitos menores, la movilidad y el registro inmediato son factores vitales.
-* **Gestión de Evidencia:** Los usuarios demandan herramientas para adjuntar fotos, audios y documentos en el momento exacto de los hechos.
-* **Geolocalización:** Las fuerzas de seguridad requieren que la información llegue clara y con ubicación precisa para optimizar su intervención.
 
 ## 📩 Contacto y Oportunidades
 
