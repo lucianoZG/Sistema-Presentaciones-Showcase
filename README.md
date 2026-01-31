@@ -1,76 +1,76 @@
-# ⚖️ Sistema de Presentación de Actividades Procesales (Mobile)
+# ⚖️ Judicial Procedural Management System (Mobile)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Private%20Repository-red?style=for-the-badge)
 
-> **Nota:** Este repositorio sirve como **Showcase** y documentación técnica del proyecto. El código fuente se mantiene privado por razones de propiedad intelectual y viabilidad comercial.
+> **Note:** This repository serves as a **Showcase** and technical documentation. The source code remains private due to Intellectual Property and commercial viability reasons.
 
-## 📱 Descripción del Proyecto
+## 📱 Project Description
 
-Partimos de la base de que una **Presentación de Actividad Procesal** es un escrito en el cual se solicitan medidas judiciales al juez a los efectos de que se instruya la causa con las evidencias correspondientes que ayuden a esclarecer la situación en favor del cliente.
+This project is built upon the concept of a **"Procedural Writ" (Presentación)**: a formal written request submitted to a judge to solicit judicial measures and present evidence that helps clarify a situation in favor of the client.
 
-Esta es una Aplicación móvil nativa desarrollada en **Kotlin** diseñada para modernizar la labor del **Abogado Litigante**. 
+This is a **Native Mobile Application** developed in **Kotlin**, designed to modernize the workflow of the **Litigating Attorney**.
 
-En el contexto post-pandemia, el sistema judicial ha migrado hacia la virtualidad. Esta herramienta cubre la necesidad de movilidad, permitiendo a los profesionales del derecho gestionar **Expedientes** y realizar **Presentaciones de Actividad Procesal** de forma remota, segura y geolocalizada.
+In the post-pandemic context, the judicial system has shifted towards virtualization. This tool addresses the critical need for mobility, allowing legal professionals to manage **Case Files** and file **Procedural Writs** remotely, securely, and with precise geolocation.
 
-La app permite instruir causas con evidencias multimedia (fotos, documentos), integrándose con la nube para garantizar que la información llegue clara y organizada a los organismos de control.
-
----
-
-## 💡 El Problema que Resuelve
-* **Inmediatez:** Ante situaciones de violencia o delitos menores, la movilidad y el registro inmediato son factores vitales.
-* **Gestión de Evidencia:** Los usuarios demandan herramientas para adjuntar fotos, audios y documentos en el momento exacto de los hechos.
-* **Geolocalización:** Las fuerzas de seguridad requieren que la información llegue clara y con ubicación precisa para optimizar su intervención.
+The app enables the instruction of cases with multimedia evidence (photos, documents), integrating with the cloud to ensure information reaches control bodies in a clear and organized manner.
 
 ---
 
-## 🚀 Funcionalidades Clave
-
-### 1. Gestión de Identidad Profesional
-* Registro seguro de abogados (Matrícula Profesional, Domicilio Legal).
-* Autenticación y protección de datos sensibles.
-  
-<img src="./assets/demo-user.gif" width="250" alt="Demo mostrando datos de usuario" />
-
-### 2. Digitalización de Expedientes
-* Creación de expedientes con metadatos jurídicos: Número de expediente, Carátula, Fuero, Jurisdicción, Ubicación del hecho y Delito.
-* Historial organizado cronológicamente.
-* **Filtrado inteligente** por estado, fuero o carátula.
-* **Geolocalización del Hecho:** Integración con **Google Maps API** y autocompletado de direcciones con **Google Places** para precisar el lugar del incidente.
-  
-<img src="./assets/demo-maps-1.gif" width="250" alt="Demo Mapa ingresando ubicación"/>
-
-<img src="./assets/demo-maps-2.gif" width="250" alt="Demo Mapa mostrando ubicación" />
-
-### 3. Presentaciones y Evidencia (Core Feature)
-* Redacción de escritos judiciales solicitando medidas al juez.
-* **Gestión de Evidencia en la Nube:** Subida de archivos (PDF, Imágenes o vídeos) directamente a **Google Drive** mediante su API.
-  
-<img src="./assets/demo-drive-1.gif" width="250" alt="Demo Drive mostrando subida de archivo" />
-
-<img src="./assets/demo-drive-2.gif" width="250" alt="Demo Drive mostrando visualización" />
-
-### 4. Productividad
-* Sistema de **Notificaciones** para recordar presentaciones pendientes tras X días de inactividad.
-* Feedback visual de estados (Pendiente, Aceptada, Rechazada).
+## 💡 The Problem Solved
+* **Immediacy:** In situations involving violence or misdemeanors, mobility and immediate recording are vital factors.
+* **Evidence Management:** Users demand tools to attach photos, audio, and documents at the exact moment and place of the events.
+* **Geolocation:** Law enforcement agencies require information to arrive clearly and with precise location data to optimize their intervention.
 
 ---
 
-## 🛠️ Stack Tecnológico y Arquitectura
+## 🚀 Key Features
 
-Este proyecto fue construido siguiendo los estándares modernos de desarrollo Android para asegurar escalabilidad y mantenimiento.
+### 1. Professional Identity Management
+* Secure registration for attorneys (Bar Association License ID, Legal Domicile).
+* Authentication and protection of sensitive data.
+  
+<img src="./assets/demo-user.gif" width="250" alt="Demo User Profile" />
 
-* **Lenguaje:** Kotlin (100%).
-* **Arquitectura:** MVVM (Model-View-ViewModel) para separar la lógica de negocio de la interfaz.
-* **Diseño de Código:** Package by Feature (Agrupación por funcionalidad) para modularidad.
-* **Persistencia de Datos Local:** Room Database (SQLite abstracto).
-* **Almacenamiento en Nube:** Google Drive API (REST).
-* **Servicios de Ubicación:** Google Maps SDK & Places API.
+### 2. Case File Digitization
+* Creation of digital Case Files with legal metadata: Case Number, Docket Title (Carátula), Court Jurisdiction, Crime Type, and Location.
+* Chronologically organized history.
+* **Smart Filtering** by status, jurisdiction, or title.
+* **Geolocation of the Fact:** Integration with **Google Maps API** and address autocomplete via **Google Places** to pinpoint the exact incident location.
+  
+<img src="./assets/demo-maps-1.gif" width="250" alt="Demo Maps Input"/>
+
+<img src="./assets/demo-maps-2.gif" width="250" alt="Demo Maps View" />
+
+### 3. Writs & Evidence (Core Feature)
+* Drafting of judicial writs requesting measures from the judge.
+* **Cloud Evidence Management:** Direct upload of files (PDF, Images, or Videos) to **Google Drive** via its REST API.
+  
+<img src="./assets/demo-drive-1.gif" width="250" alt="Demo Drive Upload" />
+
+<img src="./assets/demo-drive-2.gif" width="250" alt="Demo Drive View" />
+
+### 4. Productivity
+* **Notification System** to remind the user of pending filings after X days of inactivity.
+* Visual feedback on status (Pending, Accepted, Rejected).
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+This project was built following modern Android development standards to ensure scalability and maintainability.
+
+* **Language:** Kotlin (100%).
+* **Architecture:** MVVM (Model-View-ViewModel) to separate business logic from the UI.
+* **Code Design:** Package by Feature for modularity.
+* **Local Persistence:** Room Database (Abstract SQLite).
+* **Cloud Storage:** Google Drive API (REST).
+* **Location Services:** Google Maps SDK & Places API.
 * **UI/UX:** Material Design, XML Layouts.
-* **Concurrencia:** Coroutines & Flow.
+* **Concurrency:** Coroutines & Flow.
 
-### Diagrama de Arquitectura (Simplificado)
+### Architecture Diagram (Simplified)
 
 ```mermaid
 graph TD
@@ -81,15 +81,15 @@ graph TD
     C -->|Get Location| F[Google Maps API]
 ```
 
-## 📩 Contacto y Oportunidades
+## 📩 Contact & Opportunities
 
-Este proyecto representa una solución sólida con potencial comercial para estudios jurídicos y organismos judiciales. Si te interesa conocer más sobre la arquitectura, ver una demo en vivo o discutir oportunidades laborales, no dudes en contactarme.
+This project represents a solid solution with commercial potential for law firms and judicial bodies. If you are interested in learning more about the architecture, seeing a live demo, or discussing job opportunities, please do not hesitate to contact me.
 
-| Canal | Detalle |
+| Channel | Detail |
 | :--- | :--- |
-| **Desarrollador** | **Luciano Rafael Zanni Giuliano** |
+| **Developer** | **Luciano Rafael Zanni Giuliano** |
 | **Email** | [lucianozannig@gmail.com](mailto:lucianozannig@gmail.com) |
 | **LinkedIn** | [linkedin.com/in/lucianozannig](https://www.linkedin.com/in/lucianozannig) |
 | **GitHub** | [@lucianoZG](https://github.com/lucianoZG) |
 
-> *Abierto a roles de Java Backend Developer / Android Developer.*
+> *Open to Java Backend Developer / Android Developer roles.*
