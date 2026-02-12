@@ -34,7 +34,7 @@ The app enables the instruction of cases with multimedia evidence (photos, docum
 <img src="./assets/demo-user.gif" width="250" alt="Demo User Profile" />
 
 ### 2. Case File Digitization
-* Creation of digital Case Files with legal metadata: Case Number, Docket Title (Carátula), Court Jurisdiction, Crime Type, and Location.
+* Creation of digital Case Files with legal metadata: Case Number, Docket Title, Court Jurisdiction, Crime Type, and Location.
 * Chronologically organized history.
 * **Smart Filtering** by status, jurisdiction, or title.
 * **Geolocation of the Fact:** Integration with **Google Maps API** and address autocomplete via **Google Places** to pinpoint the exact incident location.
